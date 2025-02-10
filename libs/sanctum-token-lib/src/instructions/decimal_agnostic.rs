@@ -38,7 +38,8 @@ macro_rules! impl_decimal_agnostic {
         $ix_args: ident,
         $accounts_len: ident,
     ) => {
-        use spl_token_interface::{$accounts, $accounts_len, $ix_args, $ix_with_program_id, $keys};
+        pub use spl_token_interface::$accounts;
+        use spl_token_interface::{$accounts_len, $ix_args, $ix_with_program_id, $keys};
 
         pub fn $ix_fn<M: ReadonlyAccountData>(
             keys: $keys,
