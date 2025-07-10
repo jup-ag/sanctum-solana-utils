@@ -47,16 +47,16 @@ thiserror = "^1"
 tokio = "^1"
 
 # solana crates
-solana-account-decoder = "2.3"
-solana-clap-utils = "2.3"
-solana-cli-config = "2.3"
-solana-client = "2.3"
-solana-program = "2.3"
-solana-program-test = "2.3"
-solana-rpc-client-api = "2.3"
-solana-sdk = "2.3"
-solana-transaction-status = "2.3"
-solana-version = "2.3"
+solana-account-decoder = ">=2.2"
+solana-clap-utils = ">=2.2"
+solana-cli-config = ">=2.2"
+solana-client = ">=2.2"
+solana-program = ">=2.2"
+solana-program-test = ">=2.2"
+solana-rpc-client-api = ">=2.2"
+solana-sdk = ">=2.2"
+solana-transaction-status = ">=2.2"
+solana-version = ">=2.2"
 
 # workspace members
 sanctum-solana-cli-utils = { path = "./sanctum-solana-cli-utils" }
